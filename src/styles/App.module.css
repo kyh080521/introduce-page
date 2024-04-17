@@ -1,0 +1,170 @@
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodyContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+  width: 1200px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.whoAmI {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 100px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.nickName {
+  font-size: 80px;
+  font-weight: 700;
+  padding: 30px;
+}
+
+.profile {
+  margin-top: -60px;
+  font-size: 20px
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border: none;
+  margin: none;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px #dadce0;
+}
+
+.textDescript {
+  margin-top: -220px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SNSContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.SNS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -50px;
+  margin-right: -50px;
+
+}
+
+.SNSImage {
+  width: 100px;
+  height: 100px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #F0F0F0;
+  padding: 8px 12px;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.navItem {
+  font-weight: 500;
+  font-size: 40px;
+  color: black;
+  padding: 8px 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.QRIcon {
+  width: 100px;
+  height: 100px;
+}
+
+.projectName {
+  font-size: 50px; 
+  font-weight: 1000;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+
+}
+
+.projectYear {
+  font-weight: 500; 
+  font-size: "20px";
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+
+.project {
+  display: flex; 
+  align-items: center; 
+  flex-direction: column;
+}
+
+.SNSButton {
+  background-color: transparent;
+  border: none;
+}
+
+.projectDescription {
+  width: 200px; 
+  display: flex;
+  text-align: center; 
+  font-weight: 200; 
+  font-size: 15px;
+}
